@@ -1,0 +1,80 @@
+* {
+  overflow-x: hidden;
+}
+
+
+    /* meal page  */
+
+.meal-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 20px 50px;
+}
+.meal-page img{
+  width: 250px;
+  cursor: pointer;
+}
+.meal-card{
+position: relative;
+width: 250px;
+}
+.meal-cat{
+  position: absolute;
+  top: 10px;
+  z-index: 100;
+  left: 5px;
+  background-color: white;
+  padding: 5px 10px;
+  font-size: 12px;
+  color: tomato;
+  border-radius: 15px;
+}
+.meal-area{
+  color: gray;
+  font-size: 16px;
+}
+.meal-card h6{
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+
+            /* product */
+
+.product,.product .product-img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.product{
+  padding: 10px 100px;
+  gap: 50px;
+}
+
+
+
+                   /* sub-cat */
+
+.sub-cat{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 100px;
+  gap: 50px;
+}
+.sub-cat-card{
+  width: 200px;
+}
+.sub-cat-card img{
+  width: 200px;
+}
+.sub-cat a{
+  color: black;
+  text-decoration: none;
+}

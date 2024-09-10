@@ -1,0 +1,32 @@
+.input-box {
+    outline: none;
+    border: none;
+    border: 2px solid blueviolet;
+    padding: 15px 100px;
+    padding-left: 20px;
+    font-size: 12px;
+    border-radius: 25px;
+  }
+  
+  .input-div{
+    background: linear-gradient(rgba(43, 5, 5, 0.6),rgba(2, 27, 107, 0.723)), url(https://burst.shopifycdn.com/photos/flatlay-iron-skillet-with-meat-and-other-food.jpg?width=1000&format=pjpg&exif=0&iptc=0);
+      /* background-size: cover; */
+    width: 100vw;
+    height: 350px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 20px; */
+    color: white;
+  }
+  .input-div p{
+    margin-top: -10px;
+  }
+  .input-div div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
